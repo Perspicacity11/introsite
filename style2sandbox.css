@@ -2,6 +2,9 @@ body {
   background-color: #414141;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
 
 section {
@@ -49,6 +52,7 @@ nav {
 ul {
   margin: 10px;
   padding: 10px;
+  column-count: 2;
 }
 
 table {
@@ -58,4 +62,25 @@ table {
 td {
   background-color: #585858;
   padding: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactform {
+  background-color: #000000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  order: -1; 
+}
+
+.linkedin {
+  background-color: #000000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  order: 1;
 }
