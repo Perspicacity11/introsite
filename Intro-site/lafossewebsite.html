@@ -4,6 +4,7 @@
         <title>La Fosse Personal Website - C.R. Cassius Naylor</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/CN.png">
+        <script src="index.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>    
     
@@ -19,11 +20,13 @@
         Who I am and what I do
         </h2>
 
-        <nav>
-            <a href="#pagetop">Home</a> | 
+        <nav> 
+            
             <a href="#about">About</a> | 
-            <a href="#experience">Experience</a> | 
-            <a href="#contact">Contact</a>
+            <a href="#experience">Experience</a> |
+            <a href="#readinglist">Books</a> | 
+            <a href="#contact">Contact</a> | 
+            <button class="darkmodebutton" id="darkmodebutton" onclick="darkmodebutton()">Switch visual mode</button>
         </nav>
 
     </div>
@@ -67,7 +70,7 @@
 
         <table style="margin-bottom:100px";><a name="experience"></a>
             <h3>
-                Experience
+                Recent experience
             </h3>
             <tr>
                 <th>Company</th>
@@ -81,7 +84,6 @@
                 <td>Ad sales, client management for commercial banking, product development</td>
                 <td>2019-2020</td>
             </tr>
-                <tr>
                 <td> </td>
                 <td>Team Coordinator, Global Communications</td>
                 <td>Operations and department admin, project management, internal comms</td>
@@ -109,7 +111,7 @@
 
         <hr>
 
-        <article>
+        <article id="readinglist">
             <h3>My reading list</h3>
                 <ol>
                     <li>The remaining 3.5 books in the <i>Malazan Book of the Fallen</i> series (only 1.5m words to go)</li>
