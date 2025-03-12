@@ -4,10 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let div = document.querySelector("div");
     let navbar = document.querySelector("nav");
     let table = document.querySelector("table");    
-    let td = document.querySelector("td");  
-    let tr = document.querySelector("tr");
-    let th = document.querySelector("th");  
-    let a = document.querySelector("a");
+    let tr = document.querySelectorAll("tr");
+    let th = document.querySelectorAll("th");  
+    let a = document.querySelectorAll("a");
     let darkmodebutton = document.querySelector("#darkmodebutton");
 
     darkmodebutton.addEventListener("click", function() {
@@ -22,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
             navbar.style.color = "";
             table.style.backgroundColor = "";
             table.style.color = "";
-            td.style.backgroundColor = "";
             a.style.color = "";
             th.style.backgroundColor = "";
             tr.style.backgroundColor = "";
@@ -37,11 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
             navbar.style.backgroundColor = "#a3a3a3";
             navbar.style.color = "black";
             table.style.backgroundColor = "#a3a3a3";
-            table.style.color = "black";
-            td.style.backgroundColor = "#a3a3a3";
+            table.style.color = "white";
             a.style.color = "black";
             th.style.backgroundColor = "#a3a3a3";
-            tr.style.backgroundColor = "#a3a3a3";
+            tr.style.backgroundColor = "#cf1010";
             th.style.color = "black";
         }
     });
