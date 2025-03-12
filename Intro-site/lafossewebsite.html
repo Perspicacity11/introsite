@@ -2,14 +2,14 @@
 
     <head>
         <title>La Fosse Personal Website - C.R. Cassius Naylor</title>
-        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/CN.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>    
     
     <body>
 
-    <div style="text-align: left";>
+    <div name="pagetop">
 
         <h1>
         Cassius Naylor
@@ -20,27 +20,30 @@
         </h2>
 
         <nav>
-            <a href="lafossewebsite.html">Home</a> | 
-            <a href="about.html">About</a> | 
-            <a href="work.html">Experience</a> | 
-            <a href="contact.html">Contact</a>
+            <a href="#pagetop">Home</a> | 
+            <a href="#about">About</a> | 
+            <a href="#experience">Experience</a> | 
+            <a href="#contact">Contact</a>
         </nav>
 
     </div>
 
-    <image src="images/OVTL5.jpg" alt="A picture of me on stage at a conference, speaking into a microphone" style="float:right;width:40%;height:auto;padding:10px"></image>
-
     <section>
 
-        <p2>
-            Hello! My name is Cass (he/they), .
+        <image src="images/OVTL5.jpg" alt="A picture of me on stage at a conference, speaking into a microphone" style="float:right;width:40%;height:auto;padding:5px;margin-left:15px;"></image>
+
+        <p2><a name="about"></a>
+            Hello! My name is Cass (he/they). I'm looking forward to getting to know you all better, but in the meantime, here's a little about me.
             <br><br>
             I am a strategy and communications professional with a background in journalism, public relations, and corporate advocacy. I have worked in and with a variety of organisations, from global media companies to grassroots campaign groups, and have experience in sectors from finance and technology, to advertising and human rights.
             <br><br>
-            My area of professional expertise is in business culture and change management: I help my clients to develop and implement programmes that strengthen their employee voice structures and public posture on social justice issues. I am particularly interested in the societal role and responsibility of business, and how companies can use their influence to drive meaningful positive change.
+            My area of expertise is in business culture and change management: I help my clients to develop and implement programmes that strengthen their employee voice structures and public posture on social justice issues. I am particularly interested in the societal role and responsibility of business, and how companies can use their influence to drive meaningful positive change.
             <br><br>
             Besides my work, I'm a gamer and huge fantasy/sci-fi dork, with a penchant for RPGs and a very, <i>very</i> large pile of books to read - and one to write - this year!
         </p2>
+
+        <br><br>
+        <hr>
 
         <h3>
             Skills
@@ -52,17 +55,17 @@
             <li><b>Strategic communications: </b>I'm well versed in building strategic messaging that compels and engages audiences on issues like CSR, responsible journalism and hate crime.</li>
             <li><b>Research: </b>my first professional role was as a researcher in investigative journalism, and since then I've applied that investigative capability to my client work.</li>
             <li><b>Writing & editing: </b>my success so far has hinged on my ability to express myself in word and speech, as well as to communicate complex topics to a diversity of audiences.</li>
-            <li><b>Project management: </b>as a strategist, one must be able to consider the </li>
+            <li><b>Project management: </b>most of my work has been project-based, and I've completed extensive projects to the satisfaction of clients like the Wellcome Trust, PepsiCo, Hitachi and McLaren.</li>
             <li><b>Consultancy & advisory: </b>I'm a fixer of problems, able to take in the full picture of a nuanced challenge - its risks and opportunities - and provide judged advice on addressing root causes and end consequences.</li>
             <li><b>Public speaking: </b>as the image hopefully illustrates, I've been able to leverage background in theatre to become a confident public speaker, interviewer and presenter.</li>
-            <li><b>Advocacy & campaigning: </b>Coalition-building, making a lot from a little, resilience to oppoisition and setbacks </li>
+            <li><b>Advocacy & campaigning: </b>some of the key attributes needed to be an effective advocate - coalition-building, making a lot from a little, resilience to oppoisition and setbacks.</li>
             <li><b>Leadership: </b>I manage teams and projects like a scrum master, serving as architect, mentor and therapist; my focus is on facilitating collaboration, addressing risks and issues while providing the team with an overarching vision of and approach to the work. </li>
             <li><b>Client engagement: </b>my clients have gone on record to describe me as "collaborative, hard-working, reliable, caring and humorous", with "superior client management" and "excellent listening and facilitation skills". </li>
         </ul>
 
         </p2>
 
-        <table style="margin-bottom:100px";>
+        <table style="margin-bottom:100px";><a name="experience"></a>
             <h3>
                 Experience
             </h3>
@@ -104,17 +107,48 @@
             </tr>
         </table>
 
+        <hr>
+
+        <article>
+            <h3>My reading list</h3>
+                <ol>
+                    <li>The remaining 3.5 books in the <i>Malazan Book of the Fallen</i> series (only 1.5m words to go)</li>
+                    <li><i>The Dispossessed</i> by Ursula K Le Guin</li>
+                    <li><i>System Error</i> by Reich, Sahami and Weinstein</li>
+                    <li><i>Privatised Planet</i> by TJ Coles</li>
+                    <li><i>Life 3.0</i> by Max Tegmark</li>
+                    <li><i>Disorder</i> by Helen Thompson</li>
+                    <br>
+                    <form action="mailto: cassius.cr.naylor@gmail.com" method="get" enctype="text/plain" id="contactform" onsubmit="this.action='mailto: cassius.cr.naylor@gmail.com?subject=' + document.getElementById('bookName').value;">
+                        <input type="text" id="bookName" name="bookName" placeholder="What else should I read?">
+                        <input type="submit" value="Send recommendation">
+                    </form>
+                </ol> 
+                
+
+                <aside style="float: right; border: 5px inset white; max-width: 15%; padding: 10px;">
+                    <p2 style="float:left;">
+                        <i>When I started working as a freelancer, I ended up with this as my 'company logo': my initials in morse code, surrounded by a hexagon - <a href="https://medium.com/@cassius.cr.naylor/i-had-planned-to-make-my-maiden-medium-a-story-about-building-my-final-project-at-makers-d85b15776a6b" style="text-decoration:underline;">which is a long story...</a></i>
+                    </p2>
+                    <img src="images/LOGOTRIMMEDUPDATED.png" alt="Cassius Naylor logo" style="width: 100px; height: 100px; float: right;">
+                </aside>
+        </article>
+
     </section>
 
     </body>
 
-    <footer>
-        <form action="mailto: cassius.cr.naylor@gmail.com" method="post" enctype="text/plain">
+    <footer><a name="contact"></a>
+        <form action="mailto: cassius.cr.naylor@gmail.com" method="get" enctype="text/plain" id="contactform" onsubmit="this.action='mailto: cassius.cr.naylor@gmail.com?subject=' + document.getElementById('name').value;">
+            <input type="text" id="name" name="name" placeholder="Your name">
             <input type="submit" value="Get in touch">
         </form>
         <p>
-            <a href="https://www.linkedin.com/in/cassius-naylor">
+            <a href="https://www.linkedin.com/in/cassius-naylor" id="linkedin">
                 <img src="images/LinkedInWhite2.png" alt="LinkedIn" style="width: 50px; height: 50px;">
+            </a>
+            <a href="https://www.https://github.com/Perspicacity11" id="github">
+                <img src="images/githubwhite2.jpg" alt="GitHub" style="width: 50px; height: 50px;">
             </a>
         </p>
     </footer>
